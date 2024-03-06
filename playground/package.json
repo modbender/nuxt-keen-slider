@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "my-module-playground",
+  "name": "nuxt-keen-slider-playground",
   "type": "module",
   "scripts": {
     "dev": "nuxi dev",

@@ -1,4 +1,4 @@
-import { defineNuxtModule, addImports, createResolver } from "@nuxt/kit";
+import { defineNuxtModule, addImports } from "@nuxt/kit";
 
 import { name, version } from "../package.json";
 
@@ -16,7 +16,7 @@ export default defineNuxtModule<ModuleOptions>({
   setup(options, nuxt) {
     addImports({
       name: "useKeenSlider",
-      from: "keen-slider/vue",
+      from: "keen-slider/vue.es",
     });
 
     nuxt.options.css = [
