@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-const [container, slider] = useKeenSlider({
+const [container] = useKeenSlider({
   loop: true,
   mode: "free",
   slides: {

@@ -58,7 +58,7 @@ Easy, lightweight slider or carousel creations.
     })
     ```
 
-3. Create a component with name of your wish, ex. `Slider.vue`
+3. Create a component with name of your wish, ex. `KeenSlider.vue`
 
     ```xml
     <template>
@@ -161,7 +161,7 @@ Easy, lightweight slider or carousel creations.
 
     ```xml
     <template>
-      <Slider />
+      <KeenSlider />
     </template>
     ```
 
@@ -179,7 +179,7 @@ That's it! You can now use Nuxt Keen Slider in your Nuxt app ✨
 ```xml
 <template>
   <ClientOnly>
-    <Slider />
+    <KeenSlider />
   </ClientOnly>
 </template>
 ```

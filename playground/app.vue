@@ -1,5 +1,5 @@
 <template>
   <ClientOnly>
-    <Slider />
+    <KeenSlider />
   </ClientOnly>
 </template>
