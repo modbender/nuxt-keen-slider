@@ -1,15 +1,17 @@
 import { defineNuxtModule, addImports } from "@nuxt/kit";
 
-import { name, version } from "../package.json";
+import type { ModuleOptions } from "./types";
 
-// Module options TypeScript interface definition
-export interface ModuleOptions {}
+import { name, version } from "../package.json";
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
     name,
     version,
     configKey: "keenSlider",
+    compatibility: {
+      nuxt: "^3.0.0",
+    },
   },
   // Default configuration options of the Nuxt module
   defaults: {},
