@@ -15,7 +15,7 @@ export default defineNuxtModule<ModuleOptions>({
   },
   // Default configuration options of the Nuxt module
   defaults: {},
-  setup(options, nuxt) {
+  setup(_options, nuxt) {
     addImports({
       name: "useKeenSlider",
       from: "keen-slider/vue.es",
