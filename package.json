@@ -27,15 +27,21 @@
   ],
   "license": "MIT",
   "type": "module",
+  "packageManager": "pnpm@10.13.1",
   "exports": {
     ".": {
-      "types": "./dist/types.d.ts",
-      "import": "./dist/module.mjs",
-      "require": "./dist/module.cjs"
+      "types": "./dist/types.d.mts",
+      "import": "./dist/module.mjs"
     }
   },
-  "main": "./dist/module.cjs",
-  "types": "./dist/types.d.ts",
+  "main": "./dist/module.mjs",
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/types.d.mts"
+      ]
+    }
+  },
   "files": [
     "dist"
   ],
@@ -50,25 +56,19 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.12.4",
+    "@nuxt/kit": "^4.0.1",
     "keen-slider": "^6.8.6"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxt/eslint-config": "^0.3.13",
-    "@nuxt/module-builder": "^0.8.1",
-    "@nuxt/schema": "^3.12.4",
-    "@nuxt/test-utils": "^3.13.1",
-    "@types/node": "^20.14.12",
-    "changelogen": "^0.5.5",
-    "eslint": "^8.56.0",
-    "nuxt": "^3.12.4",
-    "vitest": "^1.0.0"
-  },
-  "resolutions": {
-    "rimraf": "latest"
-  },
-  "overrides": {
-    "rimraf": "latest"
+    "@nuxt/eslint-config": "^1.7.1",
+    "@nuxt/module-builder": "^1.0.2",
+    "@nuxt/schema": "^4.0.2",
+    "@nuxt/test-utils": "^3.19.2",
+    "@types/node": "^24.1.0",
+    "changelogen": "^0.6.2",
+    "eslint": "^9.32.0",
+    "nuxt": "^4.0.2",
+    "vitest": "^3.2.4"
   }
 }

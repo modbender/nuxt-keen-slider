@@ -1,11 +1,11 @@
-export interface ModuleOptions {}
+export type ModuleOptions = object
 
-declare module "nuxt-keen-slider" {
+declare module 'nuxt-keen-slider' {
   interface NuxtConfig {
-    splide?: ModuleOptions;
+    splide?: ModuleOptions
   }
 
   interface NuxtOptions {
-    splide?: ModuleOptions;
+    splide?: ModuleOptions
   }
 }

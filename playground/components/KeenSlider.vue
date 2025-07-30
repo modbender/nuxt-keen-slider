@@ -27,12 +27,12 @@
 <script setup>
 const [container] = useKeenSlider({
   loop: true,
-  mode: "free",
+  mode: 'free',
   slides: {
     perView: 3,
     spacing: 15,
   },
-});
+})
 </script>
 
 <style>
