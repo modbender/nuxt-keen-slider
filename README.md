@@ -23,7 +23,7 @@ Easy, lightweight slider or carousel creations.
 - [🧪 &nbsp;Examples](https://keen-slider.io/examples)
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 - [🏀 &nbsp;Online playground](https://stackblitz.com/github/modbender/nuxt-keen-slider?file=playground%2Fapp.vue)
-<!-- - [📖 &nbsp;Documentation](https://example.com) -->
+- [📖 &nbsp;Documentation](https://modbender.in/nuxt-keen-slider/)
 
 ## Features
 

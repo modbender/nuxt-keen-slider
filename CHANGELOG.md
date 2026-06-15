@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v1.2.0
+
+### 🚀 Enhancements
+
+- Add user-facing documentation hosted at https://modbender.in/nuxt-keen-slider/
+
+### 🩹 Fixes
+
+- Correct the module's config key in the type declaration (`keenSlider`, was `splide`)
+- Drop the stray `myModule` key from the playground config
+
+### 🏡 Chore
+
+- Upgrade dependencies (Nuxt 4.4, ESLint 10, Vitest 4, `@nuxt/test-utils` 4)
+- Switch the release workflow to npm OIDC Trusted Publishing (provenance)
+- Bump pinned package manager to pnpm 10.26.0
+
+### ❤️ Contributors
+
+- Modbender
+
 ## v1.1.0
 
 [compare changes](https://github.com/modbender/nuxt-keen-slider/compare/v1.0.1...v1.1.0)

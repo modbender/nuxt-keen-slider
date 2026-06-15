@@ -1,6 +1,6 @@
 {
   "name": "nuxt-keen-slider",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Best, lightweight Keen Slider for best web performance",
   "repository": "modbender/nuxt-keen-slider",
   "keywords": [
@@ -27,7 +27,7 @@
   ],
   "license": "MIT",
   "type": "module",
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.26.0",
   "exports": {
     ".": {
       "types": "./dist/types.d.mts",
@@ -56,19 +56,19 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/kit": "^4.0.1",
+    "@nuxt/kit": "^4.4.8",
     "keen-slider": "^6.8.6"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@nuxt/eslint-config": "^1.7.1",
+    "@nuxt/devtools": "3.2.4",
+    "@nuxt/eslint-config": "^1.16.0",
     "@nuxt/module-builder": "^1.0.2",
-    "@nuxt/schema": "^4.0.2",
-    "@nuxt/test-utils": "^3.19.2",
-    "@types/node": "^24.1.0",
+    "@nuxt/schema": "^4.4.8",
+    "@nuxt/test-utils": "^4.0.3",
+    "@types/node": "^22.10.7",
     "changelogen": "^0.6.2",
-    "eslint": "^9.32.0",
-    "nuxt": "^4.0.2",
-    "vitest": "^3.2.4"
+    "eslint": "^10.5.0",
+    "nuxt": "^4.4.8",
+    "vitest": "^4.1.9"
   }
 }

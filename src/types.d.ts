@@ -2,10 +2,10 @@ export type ModuleOptions = object
 
 declare module 'nuxt-keen-slider' {
   interface NuxtConfig {
-    splide?: ModuleOptions
+    keenSlider?: ModuleOptions
   }
 
   interface NuxtOptions {
-    splide?: ModuleOptions
+    keenSlider?: ModuleOptions
   }
 }
